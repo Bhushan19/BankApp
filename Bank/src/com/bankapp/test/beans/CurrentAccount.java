@@ -1,8 +1,9 @@
-package com.capgemini.beans;
+package com.bankapp.test.beans;
 
-import com.capgemini.accountenum.AccountType;
+import com.bankapp.test.accountenum.AccountType;
 
-public class SavingAccount extends Account {
+public class CurrentAccount extends Account {
+
 	private int amount;
 	private AccountType accountType;
 	
@@ -23,6 +24,5 @@ public class SavingAccount extends Account {
 		this.accountType = accountType;
 		
 	}
-	
 
 }

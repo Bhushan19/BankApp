@@ -1,9 +1,9 @@
-package com.capgemini.repository;
+package com.bankapp.test.repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.capgemini.beans.Account;
+import com.bankapp.test.beans.Account;
 
 public class AccountRepositoryData {
 	private static AccountRepositoryData instance;

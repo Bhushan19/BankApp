@@ -1,6 +1,6 @@
-package com.capgemini.beans;
+package com.bankapp.test.beans;
 
-import com.capgemini.accountenum.AccountType;
+import com.bankapp.test.accountenum.AccountType;
 
 public abstract class Account {
 	private int accountNumber;

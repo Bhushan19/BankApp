@@ -1,4 +1,4 @@
-package com.capgemini.accountenum;
+package com.bankapp.test.accountenum;
 
 public enum AccountType {
 	SAVING,

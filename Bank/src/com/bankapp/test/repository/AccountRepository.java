@@ -1,10 +1,10 @@
-package com.capgemini.repository;
+package com.bankapp.test.repository;
 
 import java.util.Map;
 
-import com.capgemini.accountenum.ErrorCodes;
-import com.capgemini.beans.Account;
-import com.capgemini.exception.BankAppException;
+import com.bankapp.test.accountenum.ErrorCodes;
+import com.bankapp.test.beans.Account;
+import com.bankapp.test.exception.BankAppException;
 
 public class AccountRepository {
 	private AccountRepositoryData data = AccountRepositoryData.getInstance();

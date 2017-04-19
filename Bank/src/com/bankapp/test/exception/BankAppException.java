@@ -1,4 +1,4 @@
-package com.capgemini.exception;
+package com.bankapp.test.exception;
 
 public class BankAppException extends Exception {
 

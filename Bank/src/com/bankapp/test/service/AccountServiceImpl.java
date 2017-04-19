@@ -1,8 +1,8 @@
-package com.capgemini.service;
+package com.bankapp.test.service;
 
-import com.capgemini.beans.Account;
-import com.capgemini.exception.BankAppException;
-import com.capgemini.repository.AccountRepository;
+import com.bankapp.test.beans.Account;
+import com.bankapp.test.exception.BankAppException;
+import com.bankapp.test.repository.AccountRepository;
 
 public class AccountServiceImpl implements AccountService {
 	private AccountRepository repository = new AccountRepository();

@@ -1,7 +1,7 @@
-package com.capgemini.service;
+package com.bankapp.test.service;
 
-import com.capgemini.beans.Account;
-import com.capgemini.exception.BankAppException;
+import com.bankapp.test.beans.Account;
+import com.bankapp.test.exception.BankAppException;
 
 public interface AccountService {
 	public boolean createAccount(Account account) throws BankAppException;

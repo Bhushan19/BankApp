@@ -1,15 +1,15 @@
-package com.capgemini.service.test;
+package com.bankapp.test.service.test;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.capgemini.accountenum.AccountType;
-import com.capgemini.beans.Account;
-import com.capgemini.beans.SavingAccount;
-import com.capgemini.exception.BankAppException;
-import com.capgemini.service.AccountServiceImpl;
+import com.bankapp.test.accountenum.AccountType;
+import com.bankapp.test.beans.Account;
+import com.bankapp.test.beans.SavingAccount;
+import com.bankapp.test.exception.BankAppException;
+import com.bankapp.test.service.AccountServiceImpl;
 
 public class AccountServiceImplTest {
 	private AccountServiceImpl serviceImpl;
